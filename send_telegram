@@ -1,0 +1,24 @@
+#Author: Sourav Purfication
+#Date: 9 October 2025
+# You can use this script to send files to @nsslLabBot (Sourav Purification's Lab Bot)
+# Usage: run script with file name or messages as parameters
+
+#!/bin/bash
+
+# Replace with your bot's API token
+BOT_TOKEN="6152550220:AAHhxy6RoCA2pT4ge9p0fbpZpV27dkOpaCU"
+
+# Replace with the user's chat ID
+CHAT_ID="133049851"
+
+for i in $@
+do
+# Message you want to send
+MESSAGE=$1
+
+# Send message using curl
+curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+     -d chat_id="$CHAT_ID" \
+     -d text="$MESSAGE"
+shift
+done
