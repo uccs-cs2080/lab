@@ -14,11 +14,16 @@ CHAT_ID="133049851"
 for i in $@
 do
 # Message you want to send
-MESSAGE=$1
-
+#MESSAGE=$1
+FILE_PATH=$1
 # Send message using curl
-curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
-     -d chat_id="$CHAT_ID" \
-     -d text="$MESSAGE"
+#curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendMessage" \
+#     -d chat_id="$CHAT_ID" \
+#     -d text="$MESSAGE"
+
+# Send file using curl
+curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" \
+     -F chat_id="$CHAT_ID" \
+     -F document=@"$FILE_PATH"
 shift
 done
