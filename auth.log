@@ -1,0 +1,135 @@
+2026-10-10T07:45:30-06:00 labhost sshd[5961]: pam_unix(sshd:session): session closed for user root
+2026-10-10T07:46:41-06:00 labhost sshd[4062]: Connection from 192.0.2.88 port 54843
+2026-10-10T07:47:15-06:00 labhost CRON[7960]: pam_unix(cron:session): session opened for user root
+2026-10-10T07:47:38-06:00 labhost systemd-logind[1717]: New session for user admin
+2026-10-10T07:48:15-06:00 labhost sshd[3994]: pam_unix(sshd:session): session closed for user backup
+2026-10-10T07:49:59-06:00 labhost sshd[6226]: Connection from 192.0.2.41 port 55311
+2026-10-10T07:51:25-06:00 labhost sshd[5061]: Connection closed by 203.0.113.12
+2026-10-10T07:52:54-06:00 labhost CRON[2871]: pam_unix(cron:session): session opened for user bob
+2026-10-10T07:54:08-06:00 labhost sshd[5508]: pam_unix(sshd:session): session closed for user backup
+2026-10-10T07:54:45-06:00 labhost sshd[7312]: Login Success for user backup from 198.51.100.17
+2026-10-10T07:56:30-06:00 labhost sshd[4345]: Connection from 203.0.113.12 port 51742
+2026-10-10T07:57:06-06:00 labhost sshd[7870]: Connection closed by 192.0.2.41
+2026-10-10T07:57:46-06:00 labhost CRON[1780]: pam_unix(cron:session): session opened for user admin
+2026-10-10T07:59:02-06:00 labhost sshd[6543]: pam_unix(sshd:session): session closed for user devops
+2026-10-10T08:00:09-06:00 labhost sshd[1092]: login failed for user carol from 203.0.113.75
+2026-10-10T08:01:15-06:00 labhost sshd[3520]: login failed for user bob from 198.51.100.17
+2026-10-10T08:03:01-06:00 labhost CRON[2052]: pam_unix(cron:session): session opened for user carol
+2026-10-10T08:03:53-06:00 labhost sshd[2491]: Connection closed by 203.0.113.12
+2026-10-10T08:04:36-06:00 labhost sshd[4205]: login success for user alice from 198.51.100.44
+2026-10-10T08:05:27-06:00 labhost CRON[3155]: pam_unix(cron:session): session opened for user carol
+2026-10-10T08:06:33-06:00 labhost sshd[1415]: Connection closed by 192.0.2.88
+2026-10-10T08:07:14-06:00 labhost sshd[7707]: Connection closed by 203.0.113.75
+2026-10-10T08:08:32-06:00 labhost sshd[6477]: Connection from 198.51.100.44 port 60150
+2026-10-10T08:10:22-06:00 labhost sudo[6383]: admin : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T08:11:04-06:00 labhost sshd[4266]: pam_unix(sshd:session): session closed for user root
+2026-10-10T08:12:50-06:00 labhost sshd[4195]: Connection from 192.0.2.88 port 61877
+2026-10-10T08:13:22-06:00 labhost systemd-logind[7844]: New session for user carol
+2026-10-10T08:14:14-06:00 labhost sshd[6779]: Connection closed by 203.0.113.75
+2026-10-10T08:14:54-06:00 labhost sshd[1184]: pam_unix(sshd:session): session closed for user carol
+2026-10-10T08:16:13-06:00 labhost CRON[2775]: pam_unix(cron:session): session opened for user admin
+2026-10-10T08:17:07-06:00 labhost sshd[6850]: pam_unix(sshd:session): session closed for user backup
+2026-10-10T08:18:41-06:00 labhost sshd[2158]: Login Success for user admin from 198.51.100.44
+2026-10-10T08:19:48-06:00 labhost sudo[3719]: backup : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T08:20:48-06:00 labhost sshd[6989]: Connection closed by 203.0.113.12
+2026-10-10T08:21:40-06:00 labhost CRON[7230]: pam_unix(cron:session): session opened for user bob
+2026-10-10T08:23:23-06:00 labhost sshd[3482]: pam_unix(sshd:session): session closed for user devops
+2026-10-10T08:23:52-06:00 labhost sudo[5056]: root : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T08:24:34-06:00 labhost sshd[7600]: Login Failed for user alice from 192.0.2.88
+2026-10-10T08:25:47-06:00 labhost sshd[7924]: Login Failed for user bob from 198.51.100.44
+2026-10-10T08:26:24-06:00 labhost sshd[6079]: LOGIN FAILED for user root from 192.0.2.41
+2026-10-10T08:27:24-06:00 labhost CRON[2207]: pam_unix(cron:session): session opened for user bob
+2026-10-10T08:28:47-06:00 labhost sshd[2715]: Connection closed by 192.0.2.88
+2026-10-10T08:30:30-06:00 labhost CRON[1526]: pam_unix(cron:session): session opened for user carol
+2026-10-10T08:30:55-06:00 labhost sudo[5539]: admin : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T08:32:46-06:00 labhost sshd[4864]: pam_unix(sshd:session): session closed for user alice
+2026-10-10T08:34:36-06:00 labhost systemd-logind[2888]: New session for user carol
+2026-10-10T08:36:28-06:00 labhost sshd[1530]: login success for user backup from 203.0.113.75
+2026-10-10T08:37:58-06:00 labhost CRON[1312]: pam_unix(cron:session): session opened for user devops
+2026-10-10T08:39:52-06:00 labhost sshd[7703]: Connection from 198.51.100.17 port 58496
+2026-10-10T08:41:23-06:00 labhost systemd-logind[7939]: New session for user admin
+2026-10-10T08:42:45-06:00 labhost sshd[5624]: pam_unix(sshd:session): session closed for user devops
+2026-10-10T08:44:26-06:00 labhost CRON[4307]: pam_unix(cron:session): session opened for user backup
+2026-10-10T08:46:04-06:00 labhost sshd[6750]: pam_unix(sshd:session): session closed for user alice
+2026-10-10T08:47:49-06:00 labhost sshd[4756]: Connection closed by 203.0.113.75
+2026-10-10T08:49:04-06:00 labhost sshd[7572]: Connection from 203.0.113.75 port 61728
+2026-10-10T08:50:57-06:00 labhost sshd[2735]: Connection from 203.0.113.75 port 54623
+2026-10-10T08:52:31-06:00 labhost sshd[5331]: Connection closed by 198.51.100.44
+2026-10-10T08:53:05-06:00 labhost sshd[7448]: pam_unix(sshd:session): session closed for user alice
+2026-10-10T08:54:35-06:00 labhost systemd-logind[6893]: New session for user alice
+2026-10-10T08:56:13-06:00 labhost CRON[2955]: pam_unix(cron:session): session opened for user backup
+2026-10-10T08:57:44-06:00 labhost sshd[5617]: pam_unix(sshd:session): session closed for user devops
+2026-10-10T08:59:37-06:00 labhost sshd[7195]: Connection closed by 203.0.113.12
+2026-10-10T09:01:09-06:00 labhost sshd[5053]: Connection closed by 203.0.113.75
+2026-10-10T09:03:04-06:00 labhost CRON[5095]: pam_unix(cron:session): session opened for user admin
+2026-10-10T09:04:33-06:00 labhost sshd[3546]: login success for user root from 203.0.113.12
+2026-10-10T09:06:09-06:00 labhost CRON[3047]: pam_unix(cron:session): session opened for user backup
+2026-10-10T09:08:04-06:00 labhost CRON[1490]: pam_unix(cron:session): session opened for user alice
+2026-10-10T09:08:41-06:00 labhost sshd[961]: pam_unix(sshd:session): session closed for user root
+2026-10-10T09:10:03-06:00 labhost sshd[1749]: pam_unix(sshd:session): session closed for user root
+2026-10-10T09:11:41-06:00 labhost sshd[3344]: Connection closed by 192.0.2.41
+2026-10-10T09:13:30-06:00 labhost sshd[5865]: Login Failed for user devops from 198.51.100.17
+2026-10-10T09:14:16-06:00 labhost sshd[1276]: login failed for user alice from 203.0.113.75
+2026-10-10T09:15:10-06:00 labhost sshd[6427]: Connection from 203.0.113.12 port 43022
+2026-10-10T09:17:01-06:00 labhost sudo[1885]: admin : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:17:57-06:00 labhost CRON[7463]: pam_unix(cron:session): session opened for user backup
+2026-10-10T09:18:19-06:00 labhost sudo[3787]: carol : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:19:22-06:00 labhost sshd[1893]: Connection closed by 192.0.2.41
+2026-10-10T09:20:53-06:00 labhost sshd[4398]: Connection from 198.51.100.44 port 57159
+2026-10-10T09:21:25-06:00 labhost systemd-logind[1765]: New session for user admin
+2026-10-10T09:22:45-06:00 labhost sshd[4825]: login success for user devops from 192.0.2.88
+2026-10-10T09:23:44-06:00 labhost sshd[7191]: pam_unix(sshd:session): session closed for user devops
+2026-10-10T09:25:21-06:00 labhost sshd[5914]: pam_unix(sshd:session): session closed for user alice
+2026-10-10T09:25:46-06:00 labhost sudo[3547]: admin : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:27:28-06:00 labhost sshd[4661]: pam_unix(sshd:session): session closed for user alice
+2026-10-10T09:29:11-06:00 labhost systemd-logind[2818]: New session for user backup
+2026-10-10T09:30:59-06:00 labhost sshd[6713]: Connection closed by 198.51.100.44
+2026-10-10T09:32:19-06:00 labhost sshd[4186]: pam_unix(sshd:session): session closed for user backup
+2026-10-10T09:33:59-06:00 labhost CRON[2946]: pam_unix(cron:session): session opened for user alice
+2026-10-10T09:34:33-06:00 labhost sshd[5259]: login failed for user admin from 192.0.2.88
+2026-10-10T09:35:03-06:00 labhost sshd[2586]: LOGIN FAILED for user devops from 192.0.2.88
+2026-10-10T09:36:16-06:00 labhost sshd[5591]: LOGIN FAILED for user carol from 203.0.113.12
+2026-10-10T09:38:10-06:00 labhost sshd[1626]: Login Failed for user alice from 192.0.2.41
+2026-10-10T09:39:27-06:00 labhost sshd[3564]: Connection from 203.0.113.12 port 44895
+2026-10-10T09:40:02-06:00 labhost sudo[3354]: alice : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:40:32-06:00 labhost sshd[5051]: Connection from 192.0.2.41 port 57295
+2026-10-10T09:41:05-06:00 labhost systemd-logind[4867]: New session for user backup
+2026-10-10T09:42:09-06:00 labhost CRON[2866]: pam_unix(cron:session): session opened for user root
+2026-10-10T09:42:42-06:00 labhost sshd[5250]: Login Success for user backup from 198.51.100.17
+2026-10-10T09:43:23-06:00 labhost sshd[1805]: Connection from 192.0.2.41 port 43640
+2026-10-10T09:43:49-06:00 labhost CRON[6332]: pam_unix(cron:session): session opened for user carol
+2026-10-10T09:44:59-06:00 labhost sshd[3457]: Connection closed by 198.51.100.17
+2026-10-10T09:45:59-06:00 labhost sshd[3564]: Connection closed by 203.0.113.12
+2026-10-10T09:47:26-06:00 labhost systemd-logind[7844]: New session for user bob
+2026-10-10T09:49:05-06:00 labhost sshd[2686]: pam_unix(sshd:session): session closed for user root
+2026-10-10T09:50:38-06:00 labhost sudo[5906]: backup : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:52:17-06:00 labhost sudo[2790]: admin : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T09:52:47-06:00 labhost sshd[3831]: pam_unix(sshd:session): session closed for user admin
+2026-10-10T09:54:04-06:00 labhost systemd-logind[2393]: New session for user alice
+2026-10-10T09:54:39-06:00 labhost sshd[6401]: Connection closed by 203.0.113.75
+2026-10-10T09:56:29-06:00 labhost sshd[2504]: Connection from 203.0.113.12 port 45852
+2026-10-10T09:58:04-06:00 labhost CRON[1474]: pam_unix(cron:session): session opened for user alice
+2026-10-10T09:58:46-06:00 labhost sshd[4404]: Login Failed for user backup from 198.51.100.17
+2026-10-10T09:59:32-06:00 labhost systemd-logind[6847]: New session for user root
+2026-10-10T10:00:55-06:00 labhost systemd-logind[3337]: New session for user carol
+2026-10-10T10:02:15-06:00 labhost CRON[3367]: pam_unix(cron:session): session opened for user root
+2026-10-10T10:03:46-06:00 labhost sshd[2108]: pam_unix(sshd:session): session closed for user carol
+2026-10-10T10:04:20-06:00 labhost systemd-logind[4886]: New session for user root
+2026-10-10T10:05:25-06:00 labhost sshd[5323]: Connection from 203.0.113.12 port 58696
+2026-10-10T10:07:19-06:00 labhost sshd[6347]: LOGIN SUCCESS for user backup from 203.0.113.12
+2026-10-10T10:08:20-06:00 labhost sshd[4672]: Connection from 203.0.113.12 port 57571
+2026-10-10T10:08:54-06:00 labhost sshd[7480]: Connection from 192.0.2.41 port 47496
+2026-10-10T10:09:40-06:00 labhost sshd[5221]: Connection from 198.51.100.17 port 45869
+2026-10-10T10:11:35-06:00 labhost systemd-logind[6794]: New session for user alice
+2026-10-10T10:12:05-06:00 labhost sshd[5046]: Connection closed by 198.51.100.44
+2026-10-10T10:13:37-06:00 labhost CRON[2634]: pam_unix(cron:session): session opened for user carol
+2026-10-10T10:14:59-06:00 labhost sudo[2127]: devops : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T10:15:58-06:00 labhost sudo[6234]: alice : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T10:17:35-06:00 labhost sshd[6226]: Connection closed by 192.0.2.88
+2026-10-10T10:19:04-06:00 labhost sudo[5604]: backup : COMMAND=/usr/bin/systemctl status ssh
+2026-10-10T10:20:30-06:00 labhost sshd[1245]: LOGIN SUCCESS for user bob from 192.0.2.88
+2026-10-10T10:21:25-06:00 labhost sshd[3155]: pam_unix(sshd:session): session closed for user bob
+2026-10-10T10:22:46-06:00 labhost sshd[3345]: Connection from 192.0.2.41 port 48620
+2026-10-10T10:23:28-06:00 labhost CRON[2718]: pam_unix(cron:session): session opened for user carol
+2026-10-10T10:23:54-06:00 labhost sshd[5880]: Connection closed by 198.51.100.17
+2026-10-10T10:25:43-06:00 labhost CRON[6936]: pam_unix(cron:session): session opened for user backup
